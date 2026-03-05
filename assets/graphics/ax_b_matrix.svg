@@ -1,0 +1,29 @@
+<svg width="500" height="200" viewBox="0 0 500 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Matrix A -->
+  <path d="M 50 40 L 40 40 L 40 160 L 50 160" fill="none" stroke="#333" stroke-width="2" />
+  <path d="M 150 40 L 160 40 L 160 160 L 150 160" fill="none" stroke="#333" stroke-width="2" />
+  <text x="100" y="30" font-family="Arial" font-size="14" text-anchor="middle" font-weight="bold">MATRIZ A</text>
+  <text x="100" y="80" font-family="serif" font-size="20" text-anchor="middle">a₁₁ a₁₂ ... a₁ₙ</text>
+  <text x="100" y="110" font-family="serif" font-size="20" text-anchor="middle">a₂₁ a₂₂ ... a₂ₙ</text>
+  <text x="100" y="140" font-family="serif" font-size="20" text-anchor="middle">... ... ... ...</text>
+
+  <!-- Vector X -->
+  <path d="M 210 40 L 200 40 L 200 160 L 210 160" fill="none" stroke="#007bff" stroke-width="2" />
+  <path d="M 240 40 L 250 40 L 250 160 L 240 160" fill="none" stroke="#007bff" stroke-width="2" />
+  <text x="225" y="30" font-family="Arial" font-size="14" text-anchor="middle" font-weight="bold" fill="#007bff">VECTOR X</text>
+  <text x="225" y="80" font-family="serif" font-size="20" text-anchor="middle">x₁</text>
+  <text x="225" y="110" font-family="serif" font-size="20" text-anchor="middle">x₂</text>
+  <text x="225" y="140" font-family="serif" font-size="20" text-anchor="middle">xₙ</text>
+
+  <text x="280" y="110" font-family="serif" font-size="30" text-anchor="middle">=</text>
+
+  <!-- Vector B -->
+  <path d="M 320 40 L 310 40 L 310 160 L 320 160" fill="none" stroke="#ff4d4d" stroke-width="2" />
+  <path d="M 350 40 L 360 40 L 360 160 L 350 160" fill="none" stroke="#ff4d4d" stroke-width="2" />
+  <text x="335" y="30" font-family="Arial" font-size="14" text-anchor="middle" font-weight="bold" fill="#ff4d4d">VECTOR B</text>
+  <text x="335" y="80" font-family="serif" font-size="20" text-anchor="middle">b₁</text>
+  <text x="335" y="110" font-family="serif" font-size="20" text-anchor="middle">b₂</text>
+  <text x="335" y="140" font-family="serif" font-size="20" text-anchor="middle">bₙ</text>
+
+  <text x="250" y="190" font-family="Arial" font-size="12" text-anchor="middle" fill="#555">Representación de Ax = B</text>
+</svg>

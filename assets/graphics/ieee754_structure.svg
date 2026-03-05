@@ -1,0 +1,19 @@
+<svg width="600" height="150" viewBox="0 0 600 150" xmlns="http://www.w3.org/2000/svg">
+  <!-- Sign Bit -->
+  <rect x="10" y="50" width="40" height="50" fill="#ff4d4d" stroke="#333" stroke-width="2"/>
+  <text x="30" y="40" font-family="Arial" font-size="12" text-anchor="middle" font-weight="bold">SIGNO</text>
+  <text x="30" y="80" font-family="Arial" font-size="16" text-anchor="middle" fill="white">1</text>
+  
+  <!-- Exponent Bits -->
+  <rect x="50" y="50" width="180" height="50" fill="#4dabff" stroke="#333" stroke-width="2"/>
+  <text x="140" y="40" font-family="Arial" font-size="12" text-anchor="middle" font-weight="bold">EXPONENTE (11 bits)</text>
+  <text x="140" y="80" font-family="Arial" font-size="14" text-anchor="middle" fill="white">10000000010</text>
+  
+  <!-- Mantissa Bits -->
+  <rect x="230" y="50" width="360" height="50" fill="#4dff4d" stroke="#333" stroke-width="2"/>
+  <text x="410" y="40" font-family="Arial" font-size="12" text-anchor="middle" font-weight="bold">MANTISA / FRACCIÓN (52 bits)</text>
+  <text x="410" y="80" font-family="Arial" font-size="14" text-anchor="middle" fill="#333">01100000000000000000000...</text>
+  
+  <!-- Labels -->
+  <text x="300" y="130" font-family="Arial" font-size="14" text-anchor="middle" fill="#555" font-style="italic">Estructura de un Double Precision (64-bit)</text>
+</svg>

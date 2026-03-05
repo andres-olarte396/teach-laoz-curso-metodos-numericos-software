@@ -1,0 +1,16 @@
+<svg width="400" height="250" viewBox="0 0 400 250" xmlns="http://www.w3.org/2000/svg">
+  <!-- Grid -->
+  <path d="M 50 50 L 50 200 L 350 200" fill="none" stroke="#eee" stroke-width="2"/>
+  
+  <!-- Smooth Curve -->
+  <path d="M 80 180 C 150 250, 250 50, 320 100" fill="none" stroke="#6610f2" stroke-width="3"/>
+  
+  <!-- Data Points -->
+  <circle cx="80" cy="180" r="5" fill="#ff4d4d"/>
+  <circle cx="200" cy="140" r="5" fill="#ff4d4d"/>
+  <circle cx="320" cy="100" r="5" fill="#ff4d4d"/>
+  
+  <!-- Labels -->
+  <text x="200" y="30" font-family="Arial" font-size="14" text-anchor="middle" font-weight="bold">Interpolación: Unión Perfecta</text>
+  <text x="200" y="230" font-family="Arial" font-size="12" text-anchor="middle" fill="#666">El polinomio toca CADA punto</text>
+</svg>

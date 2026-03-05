@@ -1,0 +1,17 @@
+<svg width="600" height="250" viewBox="0 0 600 250" xmlns="http://www.w3.org/2000/svg">
+  <!-- Target 1: High Precision, Low Accuracy -->
+  <circle cx="150" cy="100" r="50" fill="none" stroke="#ccc" stroke-width="2"/>
+  <circle cx="150" cy="100" r="30" fill="none" stroke="#ccc" stroke-width="2"/>
+  <circle cx="150" cy="100" r="10" fill="none" stroke="#ccc" stroke-width="2"/>
+  <circle cx="180" cy="100" r="3" fill="#ff4d4d"/><circle cx="182" cy="102" r="3" fill="#ff4d4d"/><circle cx="178" cy="98" r="3" fill="#ff4d4d"/>
+  <text x="150" y="180" font-family="Arial" font-size="12" text-anchor="middle" font-weight="bold">Precisión Alta / Exactitud Baja</text>
+  <text x="150" y="200" font-family="Arial" font-size="10" text-anchor="middle" fill="#666">(Resultados consistentes pero lejos del centro)</text>
+
+  <!-- Target 2: High Precision, High Accuracy -->
+  <circle cx="450" cy="100" r="50" fill="none" stroke="#ccc" stroke-width="2"/>
+  <circle cx="450" cy="100" r="30" fill="none" stroke="#ccc" stroke-width="2"/>
+  <circle cx="450" cy="100" r="10" fill="none" stroke="#ccc" stroke-width="2"/>
+  <circle cx="450" cy="100" r="3" fill="#4dff4d"/><circle cx="452" cy="102" r="3" fill="#4dff4d"/><circle cx="448" cy="98" r="3" fill="#4dff4d"/>
+  <text x="450" y="180" font-family="Arial" font-size="12" text-anchor="middle" font-weight="bold" fill="#28a745">Precisión Alta / Exactitud Alta</text>
+  <text x="450" y="200" font-family="Arial" font-size="10" text-anchor="middle" fill="#666">(El ideal del software científico)</text>
+</svg>
